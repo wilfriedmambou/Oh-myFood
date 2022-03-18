@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: $color-white;
+    box-shadow: 0rem .1rem .4rem rgba($color-black, 0.4);
+    &--menu {
+        align-items: center;
+        box-shadow: none;
+        &__backlink {
+            position: absolute;
+            top: 2.2rem;
+            left: 2rem;
+            font-size: $icon-size;
+        }
+    }
+}

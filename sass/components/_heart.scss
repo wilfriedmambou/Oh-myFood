@@ -1,0 +1,71 @@
+.heart-full-homepage  {
+        cursor: pointer;
+        position: absolute;
+        right: 1.9rem;
+        font-size: 2.8rem;
+        opacity: 0;  
+        color: transparent;
+        -webkit-background-clip: text !important;
+        -moz-background-clip: text !important;
+        -webkit-text-fill-color:transparent;
+        background: -webkit-linear-gradient(bottom left, $color-primary, $color-secondary);
+        background: -moz-linear-gradient(bottom left, $color-primary, $color-secondary);
+        background: linear-gradient(to bottom left, $color-primary, $color-secondary);
+        transition: opacity .2s ease-in-out, transform .4s cubic-bezier(.74,1.13,1,1.63);
+            &:hover { 
+                transform: scale(1.2);
+                opacity: 1;
+                z-index: 1000;
+            }    
+}
+
+.heart-empty-homepage {
+        color: $color-black;
+        position:absolute;
+        right: 2rem;
+        font-size: $title-font-size;
+            &:hover{
+                opacity: 0;
+                z-index: -999;
+                font-size: $default-font-size;
+            }
+}
+
+.heart-full-menu {
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 1.95rem;
+    font-size: $icon-size;
+    color: transparent;
+    opacity: 0;
+        -webkit-background-clip: text !important;
+        -moz-background-clip: text !important;
+        -webkit-text-fill-color:transparent;
+        background: -webkit-linear-gradient(bottom left, $color-primary, $color-secondary);
+        background: -moz-linear-gradient(bottom left, $color-primary, $color-secondary);
+        background: linear-gradient(to bottom left, $color-primary, $color-secondary);
+        transition: opacity .2s ease-in-out, transform .4s cubic-bezier(.74,1.13,1,1.63);
+            &:hover { 
+                transform: scale(1.4);
+                opacity: 1;
+                z-index: 1000;
+            }    
+}
+
+.heart-empty-menu {
+    position: absolute;
+    right: 2rem;
+    font-size: $icon-size;
+    color :$color-black;
+    &:hover{
+         opacity: 0;
+         z-index: -999;
+         font-size: $default-font-size;
+            }
+}
+
+
+
+
+

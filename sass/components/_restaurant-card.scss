@@ -1,0 +1,74 @@
+.restaurant-card {
+    background-color: $color-white;
+    border-radius: 17px;
+    height: 23rem;
+    width: 100%;
+    max-width: 35rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    box-shadow: $shadow-light;
+    @media screen and (min-width: 688px) {
+           margin: 1rem;
+        } 
+    &:nth-child(2) {
+        margin-top: 2rem;
+        @media screen and (min-width: 688px) {
+           margin-top: 1rem;
+        } 
+    }
+    &:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__link a {
+        display: contents;
+    }
+
+    &__picture {
+        display: inline;
+        position: relative;
+       
+        &__sticker {
+        position: absolute;
+        bottom: 11.5rem;
+        right: 1rem;
+        color: darken($color-tertiary, 33%);
+        font-weight: 400;
+        background-color: $color-tertiary;
+        padding: .3rem 1rem;
+        border-radius: 2px;
+        font-size: $default-font-size;
+        }
+    
+        img {
+        height: 70%;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        }
+    }
+
+    &__description {
+        position: relative;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+
+        &__title {
+            font-size: $default-font-size;
+            &__name {
+                font-weight: 700;
+            }
+            &__location {
+                font-weight: 300;
+            }
+        }
+
+        
+        }
+
+}
+

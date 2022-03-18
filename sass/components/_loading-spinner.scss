@@ -1,0 +1,69 @@
+.wrapper {
+    background-color: transparent;
+    height: 100vh;
+    overflow: hidden;
+    animation: wrapper-anim .1s cubic-bezier(0,2,0,1) 1.5s forwards;
+}
+
+.loading-spinner {
+    background-color: $color-background-dark;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+    animation: spinner-load ease forwards;
+    animation-duration: 2s;
+}
+
+.homepage {
+    background-color: $color-background-dark;
+    z-index: 99;
+    height: 0%;
+    position: fixed;
+    animation: homepage-load 5s ease forwards;
+}
+
+.spinner {
+    border: 2px solid $color-tertiary;
+    border-top: 2px solid $color-primary;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    position: absolute;
+    animation: spin 1.5s cubic-bezier(.66,.67,.25,.26) infinite both;
+}
+
+.animation {
+    font-size: 1.6rem;
+    color: $color-tertiary;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    .fas.fa-carrot {
+        animation: 1s cubic-bezier(.66,.67,.25,.26) 0s infinite alternate both anim-icon;
+    }
+    .fas.fa-cheese {
+        animation: 1s cubic-bezier(.66,.67,.25,.26) .1s infinite alternate both anim-icon;
+    }
+    .fork {
+        animation: 1s cubic-bezier(.66,.67,.25,.26) infinite alternate both pulse-icon;
+    }
+    .fas.fa-drumstick-bite {
+        animation: 1s cubic-bezier(.66,.67,.25,.26) .3s infinite alternate both anim-icon;
+    }
+    .fas.fa-fish {
+        animation: 1s cubic-bezier(.66,.67,.25,.26) .4s infinite alternate both anim-icon;
+    }
+
+}
+

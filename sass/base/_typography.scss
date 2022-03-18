@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $color-black;
+    background-color: $color-background-margin;
+}
+
+.heading-primary {
+    font-family: "Shrikhand", sans-serif;
+    color: $color-black;
+    margin-top: 1rem;
+    
+        &--main {
+            //display: block;
+            font-size: 3.5rem;
+        }
+
+        &--restaurant {
+            margin-top: 0;
+            font-size: $title-font-size;
+        }
+
+        &--footer {
+            color: $color-white;
+            font-size: 2rem;
+        }
+}
+
+.heading-secondary {
+    font-size: $title-font-size;
+    display: flex;
+    flex: 100%;
+}
+
+.line {
+    height: 3px;
+    width: 5rem;
+    background-color: $color-tertiary;
+    margin-bottom: 1rem;
+}
+
+
+.fas.fa-mobile-alt {
+        font-size: 1.9rem;
+}
+.fas.fa-list-ul {
+        font-size: 1.6rem;
+}
+.fas.fa-store {
+        font-size: 1.5rem;
+}
+
+.fas.fa-utensils {
+    width: 2rem;
+    text-align: center;
+}
+
+
+
+ 
+
+
+
+
+
+
