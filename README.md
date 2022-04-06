@@ -2,7 +2,7 @@
 
 Projet 3 du parcours Développeur Front End d'Open Classroom, intitulé "OhMyFood". 
   
-  Déployé sur GitHub Page à cette [adresse](https://alphasud.github.io/CharlesDenneulin_3_27012021/index.html). 
+  Déployé sur GitHub Page à cette [adresse](https://wilfriedmambou.github.io/portfolio_OhMyFood). 
   
 ## Scénario  
 
